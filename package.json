@@ -1,0 +1,24 @@
+{
+  "name": "cli-app",
+  "version": "1.0.0",
+  "main": "a-module.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaoming11/cli-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shaoming11/cli-app/issues"
+  },
+  "homepage": "https://github.com/shaoming11/cli-app#readme",
+  "description": "",
+  "dependencies": {
+    "bootstrap": "^5.3.7"
+  }
+}

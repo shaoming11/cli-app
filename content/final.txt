@@ -1,4 +1,2 @@
-First: hi this is the first one
-Second: gurt sybau this is the secondFirst: hi this is the first one
-Second: gurt sybau this is the secondFirst: hi this is the first one
-Second: gurt sybau this is the second
+First: undefined
+Second: undefined

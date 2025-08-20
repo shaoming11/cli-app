@@ -1,6 +1,21 @@
-const { writeFileSync, readFileSync} = require('fs')
+const { writeFile, readFile} = require('fs')
 
-const firstLine = readFileSync('./content/first.txt', 'utf-8')
-const secondLine = readFileSync('./content/second.txt', 'utf-8')
+const firstLine = readFile('./content/first.txt', 'utf-8', (err, result) => {
+    if (err) {
+        return;
+    }
+    console.log(result);
+})
+const secondLine = readFile('./content/second.txt', 'utf-8', (err, result) => {
+    if (err) {
+        return;
+    }
+    console.log(result);
+})
 
-writeFileSync('./content/final.txt', `First: ${firstLine}\nSecond: ${secondLine}\n`, {flag: 'a'})
+writeFile('./content/final.txt', `First: ${firstLine}\nSecond: ${secondLine}\n`, (err, result) => {
+    if (err) {
+        return;
+    }
+    console.log(result);
+})
