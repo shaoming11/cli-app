@@ -7,7 +7,7 @@ const server = http.createServer((req,res) => {
         res.end('about me')
     } else {
         res.end(`<h1>wrong link bucko</h1>
-            <a href='/'>back to home</a>`)
+            <a href='/'>back</a>`)
     }
 })
 
