@@ -6,7 +6,7 @@ const server = http.createServer((req,res) => {
     } else if (req.url === '/about') {
         res.end('about me')
     } else {
-        res.end(`<h1>wrong link</h1>
+        res.end(`<h1>wrong</h1>
             <a href='/'>back</a>`)
     }
 })
